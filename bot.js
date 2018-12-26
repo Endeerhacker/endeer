@@ -81,8 +81,56 @@ if (message.content === '-') {
       }
 });
 
+client3.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '-') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**يخوات قحبة خشو  , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+client4.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '-') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+
+client5.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+if (message.content === '-') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb **[ " ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
 
 
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
+client3.login(process.env.TOKEN2);// لا تغير فيها شيء
+client4.login(process.env.TOKEN2);// لا تغير فيها شيء
+client5.login(process.env.TOKEN2);// لا تغير فيها شيء
+client6.login(process.env.TOKEN2);// لا تغير فيها شيء
+client7.login(process.env.TOKEN2);// لا تغير فيها شيء
+client8.login(process.env.TOKEN2);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
