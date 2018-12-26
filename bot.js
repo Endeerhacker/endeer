@@ -54,7 +54,7 @@ client2.on('message', message => {
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '-') {
+if (message.content === 'كسمك') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -68,7 +68,7 @@ if (message.content === '-') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '-') {
+if (message.content === 'كسمك') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
