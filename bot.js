@@ -4,7 +4,7 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Spam Bot Server Discord - Script By : Rayan `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
