@@ -54,11 +54,11 @@ client2.on('message', message => {
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === 'كسمك') {
+if (message.content === '-') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**خشو كسمكم , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb **[ " ${x} " ]`)
+        message.channel.send(`**فعالية فري بسيرفر الدكاتره , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,19 +68,11 @@ if (message.content === 'كسمك') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === 'كسمك') {
+if (message.content === '-') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb ,
-
-
-
-
-@here خشو يخوات قحبة
-@here خشو يخوات قحب
-@here خشو يخوات قحبة
- **[ " ${x} " ]`)
+        message.channel.send(`**فعالية فري بسيرفر الدكاتره , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb , https://discord.gg/W6f2FKb **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
