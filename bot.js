@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const client = new Discord.Client();
+const client2 = new Discord.Client();
 
 var prefix = "#"
 client.on('message', message => {
@@ -52,10 +53,15 @@ if (message.content.startsWith(prefix + 'setgame')) {
 
 
 
+client2.on('ready', () => {
+  console.log(`Welcome Bro ${client.user.tag}!`);
+});
+
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
 });
 
 
 
+client2.login(process.env.TOKEN2);// لا تغير فيها شيء
 client.login(process.env.TOKEN);// لا تغير فيها شيء
